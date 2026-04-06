@@ -1,2 +1,2 @@
 # justforgot.net
-A placeholder website for my domain
+A placeholder website for my domain, vibe coded
