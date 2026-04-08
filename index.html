@@ -210,6 +210,20 @@
       border-color: #1f3a2a;
       background: #101f15;
     }
+
+    .video-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.video-container video {
+  width: min(320px, 80vw);
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  border: 1px solid #2a2a2a;
+  background: #000;
+}
   </style>
 </head>
 <body>
@@ -222,6 +236,13 @@
   <h1>I have yet to set up<br/><span>my server.</span></h1>
 
   <p class="sub">Come back later — something is in the works. In the meantime, feel free to reach out.</p>
+
+  <div class="video-container">
+  <video controls loop playsinline>
+    <source src="https://raw.githubusercontent.com/justforgot/justforgot.net/main/SPOILER_video0_52.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
   <button class="contact-btn" onclick="document.getElementById('overlay').classList.add('open')">
     <svg class="discord-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
